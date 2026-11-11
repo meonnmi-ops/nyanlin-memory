@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: nyanlin-memory
+    env: docker
+    envVars:
+      - key: HF_TOKEN
+        sync: false
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: ENDPOINT_URL
+        value: https://s3.hf.co/Aungmoeoo1
+      - key: BUCKET_NAME
+        value: Aungmoeoo1
